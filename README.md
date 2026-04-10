@@ -1,20 +1,95 @@
-# Liver-Cirrhosis-Stage-Prediction
-🌟 Liver Cirrhosis Stage Prediction: AI-Driven Clinical Tool
+# 🩺 Liver Cirrhosis Stage Prediction using Machine Learning
 
-🚀 Introduction : Welcome to the Liver Cirrhosis Stage Prediction tool! This AI-driven application uses a Random Forest Classifier to predict cirrhosis severity (Stage 2, 3, or 4). It features an intuitive Streamlit interface for rapid, data-driven clinical risk assessment.
+## 📌 Overview
 
-💡 Key Features : Stage Prediction: Predicts liver cirrhosis severity (Stage 1, 2, 3, or 4) using a robust ML model. Hybrid Logic System: Combines machine learning (Random Forest Classifier) with rule-based clinical thresholds. Interactive Streamlit Interface: A sleek and simple interface for easy input of patient biomarkers and real-time predictions. Model Persistence: Uses StandardScaler and Pickle files for consistent preprocessing and efficient deployment.
+This project focuses on predicting the **stage of liver cirrhosis (1–4)** using machine learning techniques based on patient clinical data. Early prediction of disease severity can support better medical decision-making and improve patient outcomes.
 
-🎯 Use Case: This chatbot is perfect for liver cirrhosis stage prediction   
-— assisting healthcare professionals and patients by predicting the stage of cirrhosis based on clinical parameters and providing educational insights on disease management.  
+---
 
-🛠️ Tech Stack:  
+## 🎯 Objectives
 
-Python: Core programming language.  
+* Predict cirrhosis stage using patient health indicators
+* Compare multiple machine learning models
+* Identify the most influential clinical features
 
-Logistic Regression: For predicting the stage of liver cirrhosis using patient data.  
+---
 
-Streamlit: Web-based interface for user interaction and result visualization.  
+## 🧠 Models Implemented
 
-Pickle: Used to load and store the trained model and scaler efficiently.  
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Random Forest
+
+---
+
+## ⚙️ Workflow
+
+### 🔹 Data Preprocessing
+
+* Handled missing values
+* Encoded categorical features (Sex, Ascites, etc.)
+* Feature scaling using standardization
+
+### 🔹 Exploratory Data Analysis (EDA)
+
+* Distribution analysis of clinical features
+* Correlation analysis between variables
+* Visualization using heatmaps and plots
+
+### 🔹 Feature Engineering
+
+* Selected relevant features impacting disease stage
+* Converted categorical data into numerical format
+
+### 🔹 Model Training
+
+* Split dataset into training and testing sets
+* Trained multiple models for comparison
+
+### 🔹 Model Evaluation
+
+* Accuracy score
+* Confusion matrix
+* Performance comparison across models
+
+---
+
+## 📊 Results
+
+* Random Forest achieved the highest accuracy among all models
+* Key factors influencing cirrhosis stage include:
+
+  * Bilirubin levels
+  * Albumin levels
+  * Age and Prothrombin time
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+
+---
+
+## 🚀 Future Improvements
+
+* Hyperparameter tuning for better accuracy
+* Integration with a web application (Flask/Streamlit)
+* Deployment for real-time prediction
+
+---
+
+## 📂 Dataset
+
+* Public dataset from Kaggle (Cirrhosis Prediction Dataset)
+
+---
+
+## 💡 Conclusion
+
+This project demonstrates how machine learning can be effectively applied in healthcare to predict disease progression and assist in early diagnosis.
+
 
