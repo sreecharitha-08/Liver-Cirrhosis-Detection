@@ -1,4 +1,4 @@
-# 🩺 Liver Cirrhosis Stage Prediction using Machine Learning
+# 🩺 Liver Cirrhosis Detection using Machine Learning
 
 ## 📌 Overview
 
